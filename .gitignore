@@ -1,0 +1,8 @@
+# The audio ships as release assets and as Hugging Face files, not in git.
+audio/
+release/
+
+# Editor and OS noise.
+.DS_Store
+Thumbs.db
+*.log

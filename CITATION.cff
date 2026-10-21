@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use these corpora, please cite them as below."
+title: "Perch blind dictation corpora: 420 veterinary dictations and traps with Kokoro audio"
+version: 1.0.0
+date-released: "2026-10-21"
+authors:
+  - name: "Talcoe LLC"
+type: dataset
+# DOI pending. Zenodo mints it after the first release. Add it here as doi: and under identifiers.
+identifiers:
+  - type: url
+    value: "https://huggingface.co/datasets/Talcoe/perch-vetdictation"
+    description: "Hugging Face mirror"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/perchvet/perch-vetdictation"
+url: "https://perch.talcoe.com"
+abstract: >-
+  Six blind corpora of veterinary dictation, 70 rows each (45 dictations and 25 traps),
+  420 rows in all. Each dictation names drugs from a fixed formulary of 66 brand and
+  generic names. Each trap is built to bait a system that guesses drug names from sound.
+  Three Kokoro voices read every row, which gives 1,260 clips as FLAC. The rows were
+  written by authors who never saw the matching code. Ships with ground truth for every
+  row and a scoring rule that counts drugs recovered, drugs missed and false offers.
+keywords:
+  - veterinary
+  - dictation
+  - speech recognition
+  - clinical scribe
+  - drug names
+  - benchmark
+  - synthetic speech
