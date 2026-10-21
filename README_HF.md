@@ -150,7 +150,7 @@ audio, rate = sf.read(rows[0]["file"])   # 16000 Hz, mono
 - Each row is read by three voices. Count each clip, so a drug listed once in a row is three dictated drug instances in its corpus.
 - **Report misses and false offers per corpus, as raw counts.** This repository gives no rate.
 
-The exact rule, the sanity checks and a reference scorer are in [scoring/README.md](scoring/README.md). The companion test is the trap set, [perch-trapset](https://github.com/perchvet/perch-trapset), which counts the same things on a different set of clips.
+The exact rule, the sanity checks and a reference scorer are in [scoring/README.md](scoring/README.md). The companion test is the trap set, [perch-trapset](https://github.com/perchvet/perch-trapset): its 70 clips are the 70 rows of blind1 read by one voice, and blind1 adds two more voices to each row.
 
 ## What this is not
 
